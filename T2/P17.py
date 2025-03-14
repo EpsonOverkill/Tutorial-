@@ -1,4 +1,3 @@
-# Compute sin(x) series
 import math
 x, n = map(float, input("Enter x, n: ").split())
 x = math.radians(x)
