@@ -1,4 +1,3 @@
-# Menu program
 print("1: Even/Odd, 2: Pos/Neg/Zero, 3: Factors")
 c = int(input("Enter choice: "))
 if c == 1:
