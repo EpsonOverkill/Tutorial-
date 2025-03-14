@@ -1,4 +1,3 @@
-# Remove all duplicates
 from collections import Counter
 nums = list(map(int, input("Enter numbers: ").split()))
 c = Counter(nums)
