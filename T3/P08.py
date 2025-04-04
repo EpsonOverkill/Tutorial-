@@ -1,5 +1,5 @@
 import tkinter as tk
-l, num = 1, 200
+l, num = 1, 100
 guess = (l + num) // 2
 def small():
     global l, guess
