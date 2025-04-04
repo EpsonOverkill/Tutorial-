@@ -1,3 +1,4 @@
 import pandas as pd
-df = pd.read_excel("colleges.xlsx")
-print(df)
+data = {"Bike": ["BMW", "Ducati"], "Price": [500000, 450000]}
+df = pd.DataFrame(data)
+df.to_excel("bikes.xlsx", index=False)
