@@ -1,2 +1,2 @@
-s = input("Enter string: ")
-print("Result:", s[::2])
+str = input("Enter string: ")
+print("Result:", str[::2])
